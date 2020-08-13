@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DWJ_Example' do
+  pod 'DWJ', :path => '../'
+
+  target 'DWJ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
